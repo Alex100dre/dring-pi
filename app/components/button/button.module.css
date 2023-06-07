@@ -1,0 +1,26 @@
+.btn {
+    border-radius: 50%;
+    background: linear-gradient(145deg, #f0f0f0, #cacaca);
+    box-shadow: 20px 20px 60px #bebebe,
+    -20px -20px 60px #ffffff;
+
+    width: 200px;
+    height: 200px;
+    padding: 15px;
+    color: var(--font-color-head);
+    text-transform: uppercase;
+    font-size: 25px;
+
+    transition: color .2s ease-in-out;
+}
+
+.btn:hover {
+    background: #e0e0e0;
+    color: #3c424f;
+}
+
+.btn:active, .btn.active {
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    color: #1d2027;
+    cursor: wait;
+}
